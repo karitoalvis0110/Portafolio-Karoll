@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Karoll Dallana Alvis Culma | Portafolio Profesional</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&amp;family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="cursor-dot"></div><div class="cursor-ring"></div>
+<button class="theme-toggle" id="themeBtn" title="Cambiar tema">
+<i class="fa-solid fa-moon"></i>
+</button>
+<div id="loader">
+<h1 id="loaderLogo"><span>K</span><span>D</span><span>A</span><span>C</span></h1>
+<div class="loader-bar"><span></span></div>
+</div>
+<div class="layout">
+<aside>
+<div class="logo">KDAC</div>
+<p style="color:#9ca3af;margin:8px 0 30px"><span style="margin-left:30px;display:inline-block">Creative Studio</span></p>
+<nav class="menu">
+<a href="#inicio">🏠 Inicio</a>
+<a href="#sobre">👤 Sobre mí</a>
+<a href="#servicios">🎨 Servicios</a>
+<a href="#portafolio">💼 Portafolio</a>
+<a href="#habilidades">⭐ Habilidades</a>
+<a href="#logos">🏆 Logos</a>
+<a href="#certificados">📜 Certificados</a>
+<a href="#contacto">📞 Contacto</a>
+</nav>
+</aside>
+<main>
+
+<nav class="top-navbar">
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#portafolio">Portafolio</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#logos">Logos</a>
+    <a href="#certificados">Certificados</a>
+    <a href="#contacto">Contacto</a>
+
+    <a href="#contacto" class="talk-btn">
+        Hablemos
+        <i class="fa-regular fa-paper-plane"></i>
+    </a>
+</nav>
+
+<section id="inicio" class="hero">
+<div>
+<h1>Hola, soy <span>Karoll Dallana</span><br/>Alvis Culma</h1>
+<p>Diseñadora Gráfica y Productora Multimedia con más de 2 años de experiencia en diseño de identidad visual, branding, contenido digital, redes sociales y desarrollo de soluciones creativas para empresas y emprendedores.</p>
+<a class="btn" href="#">Ver Portafolio</a>
+</div>
+<div class="avatar">👩‍💻</div>
+</section>
+
+<section class="carousel-section">
+<h2 class="carousel-title">Proyectos Destacados</h2>
+<div class="carousel-wrap">
+<div class="carousel-track">
+<div class="carousel-card"><img src="https://picsum.photos/300/420?random=1" alt="Proyecto 1"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=2" alt="Proyecto 2"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=3" alt="Proyecto 3"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=4" alt="Proyecto 4"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=5" alt="Proyecto 5"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=6" alt="Proyecto 6"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=7" alt="Proyecto 7"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=8" alt="Proyecto 8"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=9" alt="Proyecto 9"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=10" alt="Proyecto 10"></div>
+<div class="carousel-card"><img src="https://picsum.photos/300/420?random=1" alt="Proyecto 1"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=2" alt="Proyecto 2"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=3" alt="Proyecto 3"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=4" alt="Proyecto 4"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=5" alt="Proyecto 5"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=6" alt="Proyecto 6"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=7" alt="Proyecto 7"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=8" alt="Proyecto 8"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=9" alt="Proyecto 9"></div><div class="carousel-card"><img src="https://picsum.photos/300/420?random=10" alt="Proyecto 10"></div>
+</div>
+</div>
+</section>
+
+
+<section class="stats-panel">
+<div class="stat"><i class="fa-regular fa-face-smile"></i><div><h3 id="happyClients">0+</h3><p>Clientes felices</p></div></div>
+<div class="stat"><i class="fa-regular fa-folder-open"></i><div><h3 id="projectsDone">0+</h3><p>Portafolios realizados</p></div></div>
+<div class="stat"><i class="fa-solid fa-pen-ruler"></i><div><h3 id="logosMade">0+</h3><p>Logos diseñados</p></div></div>
+<div class="stat"><i class="fa-solid fa-award"></i><div><h3 id="yearsExp">0+</h3><p>Años de experiencia</p></div></div>
+</section>
+
+<section class="grid">
+<div id="sobre" class="card"><h3>Sobre mí</h3><p>Soy Karoll Dallana Alvis Culma, diseñadora gráfica y productora multimedia apasionada por la creatividad, la innovación y el diseño estratégico. Durante más de 2 años he trabajado desarrollando identidades visuales, piezas publicitarias, contenido para redes sociales, branding y experiencias digitales que ayudan a fortalecer marcas personales y corporativas.</p></div>
+<div id="servicios" class="card">
+<h3>Servicios</h3><div class="services-grid">
+<div class="service-box" data-items="Diseño de logotipos|Identidad corporativa|Papelería empresarial|Publicidad impresa" data-title="🎨 Diseño Gráfico"><h4>🎨 Diseño Gráfico</h4></div>
+<div class="service-box" data-items="Naming|Manual de marca|Identidad visual|Estrategia de marca" data-title="🏷️ Branding"><h4>🏷️ Branding</h4></div>
+<div class="service-box" data-items="Meta Ads|Google Ads|SEO|Redes Sociales" data-title="📈 Marketing Digital"><h4>📈 Marketing Digital</h4></div>
+<div class="service-box" data-items="Reels|Shorts|Comerciales|Motion Graphics" data-title="🎬 Edición de Video"><h4>🎬 Edición de Video</h4></div>
+<div class="service-box" data-items="Landing Pages|Portafolios|Responsive|Optimización" data-title="💻 Diseño Web"><h4>💻 Diseño Web</h4></div>
+</div>
+</div>
+<div id="portafolio" class="card"><h3>Portafolio</h3><div class="gallery"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+<div id="habilidades" class="card">
+<h3>Habilidades</h3>
+<div class="skill-item"><div class="skill-head"><span>Photoshop</span><span id="p1">95%</span></div><div class="progress"><div class="fill" id="f1" style="width:95%"></div></div></div>
+<div class="skill-item"><div class="skill-head"><span>Illustrator</span><span id="p2">95%</span></div><div class="progress"><div class="fill" id="f2" style="width:95%"></div></div></div>
+<div class="skill-item"><div class="skill-head"><span>Premiere</span><span id="p3">95%</span></div><div class="progress"><div class="fill" id="f3" style="width:95%"></div></div></div>
+</div><div id="logos" class="card"><h3>Logos</h3><div class="gallery"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div class="card">
+<h3>Contacto</h3>
+<p>WhatsApp<br/>Correo<br/>Redes Sociales</p>
+</div></section></main></div>
+<div class="card">
+<h3>Preguntas Frecuentes</h3>
+<details><summary>¿Cuánto tarda un proyecto?</summary><p>Depende del alcance; un logotipo suele requerir entre 3 y 7 días hábiles.</p></details>
+<details><summary>¿Qué archivos entregas?</summary><p>Entrego formatos listos para impresión y uso digital.</p></details>
+<details><summary>¿Trabajas con clientes de otros países?</summary><p>Sí, trabajo de forma remota con clientes nacionales e internacionales.</p></details>
+<details><summary>¿Cuántas revisiones incluye?</summary><p>Las revisiones dependen del servicio contratado.</p></details>
+</div>
+<div class="card"><h3>Contacto</h3><p>WhatsApp<br/>Correo<br/>Redes Sociales</p></div>
+
+
+
+<div class="social-floating">
+<a class="social" href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a class="social" href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+<a class="social" href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+<a class="social" href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+<a class="social" href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+<a class="social" href="#" title="Behance"><i class="fab fa-behance"></i></a>
+</div>
+<a class="bot-floating" href="#" title="Asistente IA">
+<i class="fa-solid fa-robot"></i>
+</a>
+<a class="forum-floating" href="#" title="Formulario">
+<i class="fa-solid fa-envelope"></i>
+</a>
+<a class="whatsapp-floating" href="#" title="WhatsApp">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+
+
+<div id="serviceOverlay"><div id="servicePanel"></div></div>
+
+
+<section id='contacto' class='contact-premium'><div class='contact-left'><h2>¡Trabajemos Juntos!</h2><p>¿Tienes un proyecto en mente?<br>Hagamos realidad tu marca.</p></div><form class='contact-form'><input placeholder='Tu nombre'><input placeholder='Tu correo'><textarea placeholder='Escribe tu mensaje'></textarea><button>Enviar Mensaje</button></form><div class='contact-info'><div><b>Correo</b><br>tucorreo@oukeizee.com</div><div><b>WhatsApp</b><br>+57 XXX XXX XXXX</div><div><b>Ubicación</b><br>Colombia</div></div></section><footer class="footer-premium">
+<div class="footer-grid">
+<div>
+<h3>KDAC</h3>
+<p>Diseñadora Gráfica y Productora Multimedia especializada en branding, identidad visual, diseño publicitario y contenido digital. Transformo ideas en proyectos creativos y experiencias visuales de alto impacto.</p>
+</div>
+<div class="footer-links">
+<h4>Enlaces</h4>
+<a href="#">Inicio</a>
+<a href="#">Servicios</a>
+<a href="#">Portafolio</a>
+<a href="#">FAQ</a>
+<a href="#">Contacto</a>
+</div>
+<div class="footer-links">
+<h4>Legal</h4>
+<a href="#">Política de Privacidad</a>
+<a href="#">Términos y Condiciones</a>
+<a href="#">Cookies</a>
+</div>
+<div>
+<h4>Sígueme</h4>
+<div class="footer-social">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="#"><i class="fab fa-tiktok"></i></a>
+</div>
+</div>
+</div>
+<div class="footer-copy">
+© 2026 Karoll Dallana Alvis Culma — Todos los derechos reservados.
+</div>
+</footer>
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<div class="portfolio-btn"><a href="#contacto" class="btn-more">Ver más <i class="fa-solid fa-arrow-right"></i></a></div>
